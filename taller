@@ -3,7 +3,7 @@
 
 (1 Punto)
  Devices + Operations
- Development + Operations
+ Development + Operations *
  Devices + Oportunities
  Development + Oportunities
 2.¿Qué acción puede disparar automáticamente un proceso de despliegue?
@@ -13,14 +13,14 @@
  Un commit por parte de un desarrollador
  Un pull por parte de un desarrollador
  Un proceso exitoso de compilación (Build)
- La ejecución exitosa de las pruebas automatizadas
+ La ejecución exitosa de las pruebas automatizadas *
 3.¿Cuál es la mejor definición de un contenedor?
 
 
 (1 Punto)
  Una máquina virtual en Linux que permite el aislamiento de recursos
  Un sistema de archivos
- Un espacio aislado que corre sobre otro sistema operativo
+ Un espacio aislado que corre sobre otro sistema operativo *
  Un servidor físico para correr cualquier tipo de aplicación
 4.¿Cuál de las siguientes NO es un requerimiento de DevOps?
 
@@ -29,14 +29,14 @@
  Operación y Monitoreo
  Despligue Continuo
  Integración Continua
- Microservicios
+ Microservicios *
 5.¿Cuál es la secuencia normal en un proceso de integración continua?
 
 
 (1 Punto)
  Commit/Push – Compilación/Build – Ejecución de pruebas unitarias – Reporte
  Compilación/Build – Ejecución de pruebas unitarias – Reporte
- Commit/Push – Compilación/Build – Ejecución de pruebas unitarias
+ Commit/Push – Compilación/Build – Ejecución de pruebas unitarias *
  Commit/Push – Compilación/Build – Reporte
 6.¿Cuándo se presenta un conflicto en una fusión (merge)?
 
@@ -44,7 +44,7 @@
 (1 Punto)
  Cuando se modifican archivos de las mismas carpetas en las ramas que se están fusionando.
  Cuando se modifican los mismos archivos en ambas ramas que se están fusionando.
- Cuando la misma parte del mismo archivo cambia en ambas ramas que se están fusionando.
+ Cuando la misma parte del mismo archivo cambia en ambas ramas que se están fusionando. *
  Cuando se fusionan 2 ramas creadas por el mismo usuario.
 7.En un proceso de despliegue continuo, ¿en cuántos ambientes puedo instalar?
 
@@ -52,7 +52,7 @@
 (1 Punto)
  Máximo en 5
  Sólo en 1
- En todos los requeridos
+ En todos los requeridos *
  Mínimo en 2
 8.¿Qué herramientas me sirven para “orquestar contenedores”?
 
@@ -61,21 +61,21 @@
  Kubernetes
  Kubernetes y Docker
  Kubernetes y VSTS
- Kubernetes y Docker Compose
+ Kubernetes y Docker Compose *
 9.¿Cuál es una herramienta que sirve como “repositorio universal”, para concentrar las dependencias de todos los proyectos?
 
 
 (1 Punto)
  SonarQube
  Maven
- Artifactory
+ Artifactory *
  Docker
 10.¿Qué significa fusión de avance rápido (fast-forward merge)?
 
 
 (1 Punto)
  La fusión se completa sin intervención humana.
- No son necesarias confirmaciones de fusión, solo se mueve el puntero de la rama.
+ No son necesarias confirmaciones de fusión, solo se mueve el puntero de la rama. *
  La fusión se realiza forzando cambios locales sobre cambios remotos en caso de conflictos.
  La fusión se realiza forzando cambios remotos sobre cambios locales en caso de conflictos.
 11.¿Cuándo debemos agregar un mensaje mientras usamos Git?
@@ -85,12 +85,12 @@
  Al añadir un cambio: git add -m 'adding files'
  Al agregar un repositorio remoto: git remote add -m 'adding remote'
  Al inicializar un repositorio: git init -m 'initial commit'
- Al confirmar un cambio: git commit -m 'initial commit'
+ Al confirmar un cambio: git commit -m 'initial commit' *
 12.Acabamos de crear un nuevo archivo llamado index.html. ¿Cuál de los siguientes añadirá este archivo para que podamos confirmarlo?
 
 
 (1 Punto)
- git add index.html
+ git add index.html *
  git add new
  git commit index.html
  git fetch index.html
@@ -99,7 +99,7 @@
 
 (1 Punto)
  Código duplicado
- Código que no responde al requerimiento
+ Código que no responde al requerimiento *
  Complejidad ciclomática
  Cobertura de pruebas unitarias
 14.¿Cuál es la principal ventaja de implementar IaC o contenedores?
@@ -107,7 +107,7 @@
 
 (1 Punto)
  Los despliegues son rápidos
- Tener ambientes sincronizados, con todos los requerimientos y configuraciones listas
+ Tener ambientes sincronizados, con todos los requerimientos y configuraciones listas *
  No requerir al personal de operaciones/infraestructura
  El desarrollo es más sencillo
 15.¿Qué es una rama (branch) realmente?
@@ -117,12 +117,12 @@
  Es un apuntador a la rama local en la que estés en ese momento.
  Es un apuntador a la rama remota de la rama local que estés en ese momento.
  Es un apuntador a una confirmación específica, que se mueve contigo.
- Es un apuntador al ancestro común entre la rama master y la rama en la que estés en ese momento.
+ Es un apuntador al ancestro común entre la rama master y la rama en la que estés en ese momento. *
 16.¿Qué módulos contiene VSTS?
 
 
 (1 Punto)
- Git + Trabajo + Compilación y Despliegue + Pruebas + Wiki
+ Git + Trabajo + Compilación y Despliegue + Pruebas + Wiki *
  Git + Trabajo + Compilación y Despliegue + Pruebas + Wiki + Operación y Monitoreo
  Git + Trabajo + Compilación y Despliegue + Wiki
  Git + Compilación y Despliegue + Pruebas + Wiki + Operación y Monitoreo
@@ -131,22 +131,22 @@
 
 (1 Punto)
  Completar la fusión utilizando el comando squash para forzar a fusionar todos las confirmaciones en una sola.
- Completar la fusión indicándole a git que resuelva los conflictos usando los cambios de la rama a fusionar (theirs o suyos).
+ Completar la fusión indicándole a git que resuelva los conflictos usando los cambios de la rama a fusionar (theirs o suyos). *
  Descartar la fusión actual y realizar una nueva fusión ubicándonos en una confirmación anterior de la rama donde se está fusionando y donde no genere conflictos.
- Completar la fusión indicándole a git que resuelva los conflictos tomando los cambios de la rama donde se está fusionando (ours o nuestros).
+ Completar la fusión indicándole a git que resuelva los conflictos tomando los cambios de la rama donde se está fusionando (ours o nuestros). *
 18.¿Cuál es el proceso que diferencia el “Despliegue continuo” de la “Entrega continua”?
 
 
 (1 Punto)
  Proceso de compilación/build
  Pruebas unitarias en servidor de compilación
- Pruebas de aceptación en el ambiente de testing
+ Pruebas de aceptación en el ambiente de testing *
  Despliegue manual a producción
 19.¿Qué se debe probar con TDD?
 
 
 (1 Punto)
- Métodos públicos únicamente
+ Métodos públicos únicamente *
  Métodos privados únicamente
  Métodos privados y públicos
  Métodos estáticos únicamente
@@ -156,14 +156,14 @@
 (1 Punto)
  Mediante una interfaz web SOAP con XML
  Mediante JDBC
- Mediante una interfaz web REST con JSON
+ Mediante una interfaz web REST con JSON *
  Mediante una interfaz con sockets
 21.¿Cómo se pueden descargar las últimas confirmaciones (commits) y referencias (refs) desde un repositorio remoto sin fusionar nada?
 
 
 (1 Punto)
  git update
- git fetch
+ git fetch *
  git pull
  git merge
 22.¿Qué se requiere para para poder ejecutar un proceso de compilación en VSTS?
@@ -172,7 +172,7 @@
 (1 Punto)
  Definición de pruebas unitarias
  Definición de pruebas estáticas
- Configuración de un agente
+ Configuración de un agente *
  Configuración de un agente y etapas
 23.¿Cuál es la diferencia entre una rama (branch) y una etiqueta (tag)?
 
@@ -180,5 +180,5 @@
 (1 Punto)
  Las etiquetas se deben mover manualmente, mientras que las ramas se mueven automáticamente cuando se realiza una confirmación.
  Las ramas se pueden publicar (push) en el repositorio remoto mientras que las etiquetas solo se ven en el repositorio local.
- Las etiquetas se pueden mover a confirmaciones anteriores, mientras que las ramas solo se pueden mover hacia confirmaciones nuevas.
+ Las etiquetas se pueden mover a confirmaciones anteriores, mientras que las ramas solo se pueden mover hacia confirmaciones nuevas. *
  No hay diferencia entre estos objetos para git.
